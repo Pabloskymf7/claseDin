@@ -1,0 +1,41 @@
+.cv-photo {
+    width: 150px; /* Tamaño en píxeles */
+    height: 150px;
+    object-fit: cover; /* Recorta la imagen si es necesario */
+    border-radius: 50%; /* Para que sea circular */
+    border: 2px solid #ccc; /* Borde sutil */
+}
+
+
+.accordion-horizontal {
+    display: flex;
+    align-items: flex-start;
+}
+
+.accordion-item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Asegurarse de que el contenido no salga del contenedor */
+.accordion-body {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+/* Ajustar la altura del contenido para que se alinee bien */
+.accordion-collapse {
+    max-width: 400px;
+    overflow: auto;
+}
+
+.contacto {
+    padding: 50px 0;
+    color: #e6e6e6;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

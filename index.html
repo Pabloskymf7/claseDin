@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Pablo</title>
+</head>
+<body>
+    <div class="container mt-3 container-fluid " id="encabezado">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="img/campus.jpg" alt="Italian Trulli">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex me-4">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#presentacion">Presentación Personal</a>
+                    </li>
+                
+                    <li class="nav-item">
+                      <a class="nav-link" href="#seccionCv">Curriculum</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> 
+    </div>
+
+    <div class="container m-5" id="presentacion">
+        <div>
+            <img src="img/foto.jpg" alt="Italian Trulli" class="cv-photo trounded mx-auto d-block">
+        </div>
+        <div class="redes mt-3 text-center">
+            <a href="www.linkedin.com/in/pablo-miguel-ferrer-252132253" class="me-3"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+            <a href="https://github.com/Pabloskymf7/claseDin"><i class="fa-brands fa-github fa-2x"></i></a>
+            
+        </div>
+        <div class="text-center">
+            <h1>Presentación</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nemo ullam minima quaerat rem nisi? Adipisci 
+                nemo incidunt doloribus dolore nihil debitis. Ad nesciunt dolorum obcaecati quaerat ipsam sunt ut.</p>
+                
+        </div>
+    </div>
+    <div class="container m-5 p-5 bg-light" id="seccionCv">
+        <h2 class="mb-5 text-center">Experiencia</h2>
+        <div class="d-flex justify-content-center">
+            <div class="accordion accordion-horizontal  " id="accordionExample">
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2 class="mb-2 text-center">Experiencia</h2>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <section class="resume-section" id="experience">
+                                <div class="resume-section-content">
+                                    
+                                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                        <div class="flex-grow-1">
+                                            <h3 class="mb-0">Entrenador de Tenis</h3>
+                                            <div class="flex-shrink-0"><span class="text-primary">September 2018 - Present</span></div>
+                                            <div class="subheading mb-3">Buñol Es Deporte</div>               
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                        <div class="flex-grow-1">
+                                            <h3 class="mb-0">Entrenador de Padel</h3>
+                                            <div class="flex-shrink-0"><span class="text-primary">Septiembre 2019 - Febrero 2022</span></div>
+                                            <div class="subheading mb-3">Escuela De Deporte Chiva</div>
+                                        </div> 
+                                    </div>
+                                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                        <div class="flex-grow-1">
+                                            <h3 class="mb-0">Técnico de Sistemas Microinformáticos y Redes</h3>
+                                            <div class="flex-shrink-0"><span class="text-primary">Marzo 2022 - Junio 2022</span></div>
+                                            <div class="subheading mb-3">Netval Chiva FCT</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>  
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h2 class="mb-2 text-center">Estudios</h2>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <section class="resume-section" id="education">
+                                <div class="resume-section-content">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                        <div class="flex-grow-1">
+                                            <h3 class="mb-0">Centro Educativo de Cheste</h3>
+                                            <div class="flex-shrink-0"><span class="text-primary">Septiembre 2020 - Junio 2022</span></div>   
+                                            <div class="subheading mb-3">Grado Medio Sistemas Microinformáticos y Redes</div>              
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="flex-grow-1">
+                                            <h3 class="mb-0">Campus Camara FP Valencia</h3>
+                                            <div class="flex-shrink-0"><span class="text-primary">Septiembre 2023 - Junio 2025</span></div>
+                                            <div class="subheading mb-3">Grado Superior Desarrollo Aplicaciones Multiplataforma</div>          
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h2 class="mb-2 text-center">Skills</h2>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <section class="resume-section text-center" id="skills">
+                                <div class="resume2-section-content">
+                                    <div class="subheading mb-5">Lenguajes de Programación</div>
+                                    <ul class="list-inline dev-icons">
+                                        <li class="list-inline-item"><i class="fab fa-html5 fs-1"></i></li>
+                                        <li class="list-inline-item"><i class="fab fa-css3-alt fs-1"></i></li>
+                                        <li class="list-inline-item"><i class="fab fa-js-square fs-1"></i></li>
+                                        <li class="list-inline-item"><i class="fab fa-java fs-1"></i></li>
+                                        <li class="list-inline-item"><i class="fab fa-python fs-1"></i></li>
+                                        <li class="list-inline-item"><i class="fab fa-node-js fs-1"></i></li>
+                                        
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    <div class="container bg-light" id="seccionCv">
+        <section class="resume-section" id="experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5 text-center">Experiencia</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Entrenador de Tenis</h3>
+                        <div class="subheading mb-3">Buñol Es Deporte</div>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">September 2018 - Present</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Entrenador de Padel</h3>
+                        <div class="subheading mb-3">Escuela De Deporte Chiva</div>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Septiembre 2019 - Febrero 2022</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Técnico de Sistemas Microinformáticos y Redes</h3>
+                        <div class="subheading mb-3">Netval Chiva FCT</div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Marzo 2022 - Junio 2022</span></div>
+                </div>
+            </div>
+        </section>  
+    </div>
+     -->
+    <!--
+    <div class="container" id="seccionCv2">
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5 text-center">Estudios</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Centro Educativo de Cheste</h3>
+                        <div class="subheading mb-3">Grado Medio Sistemas Microinformáticos y Redes</div>                        
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Septiembre 2020 - Junio 2022</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Campus Camara FP Valencia</h3>
+                        <div class="subheading mb-3">Grado Superior Desarrollo Aplicaciones Multiplataforma</div>
+                        
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Septiembre 2023 - Junio 2025</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="resume-section text-center" id="skills">
+            <div class="resume2-section-content bg-light">
+                <h2 class="mb-5">Skills</h2>
+                <div class="subheading mb-5">Lenguajes de Programación</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5 fs-1"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt fs-1"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square fs-1"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-java fs-1"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-python fs-1"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-node-js fs-1"></i></li>
+                    
+                </ul>
+            </div>
+        </section>
+    </div>
+    -->
+
+
+    <div class="container" id="portfolio">
+        <h2 class="mb-5 text-center">Proyectos recientes</h2>
+        <div class="row">
+            
+            <div class="col-md-4">
+                <a href="file:///C:/Users/pablo/Desktop/DAM/paterna/1/lenguaje%20de%20marcas/2o%20trimestre/MiPaginaWeb2/index.html" target="_blank">
+                    <img src="img/pagnia1.PNG" alt="Proyecto 1" class="img-fluid rounded mb-3">
+                    <p class="image text-center img-fluid">Proyecto 1</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="https://enlace-a-proyecto2.com" target="_blank">
+                    <img src="/img/pagnia2.PNG" alt="Proyecto 2" class="img-fluid rounded mb-3">
+                    <p class="image text-center img-fluid">Proyecto 2</p>
+                </a>
+            </div>
+           
+            <div class="col-md-4">
+                <a href="https://enlace-a-proyecto3.com" target="_blank">
+                    <img src="/img/pagnia3.PNG" alt="Proyecto 3" class="img-fluid rounded mb-3">
+                    <p class="image text-center img-fluid">Proyecto 3</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <section class="contacto m-auto" id="contacto">
+            <div class="contenido-seccion bg-primary">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <h3>Ponte en contacto ahora mismo!</h3>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-phone"></i> Teléfono
+                        </h2>
+                        <span class="info-contacto">+34 XXXXXXXXX</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-envelope"></i> Correo
+                        </h2>
+                        <span class="info-contacto">pmiguelferrer@gmail.com</span>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
