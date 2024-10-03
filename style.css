@@ -1,9 +1,9 @@
 .cv-photo {
     width: 150px; /* Tamaño en píxeles */
     height: 150px;
-    object-fit: cover; /* Recorta la imagen si es necesario */
+    object-fit: cover; 
     border-radius: 50%; /* Para que sea circular */
-    border: 2px solid #ccc; /* Borde sutil */
+    border: 2px solid #ccc; 
 }
 
 
@@ -17,13 +17,11 @@
     margin-right: 10px;
 }
 
-/* Asegurarse de que el contenido no salga del contenedor */
 .accordion-body {
     white-space: nowrap;
     overflow-x: auto;
 }
 
-/* Ajustar la altura del contenido para que se alinee bien */
 .accordion-collapse {
     max-width: 400px;
     overflow: auto;
